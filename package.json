@@ -4,7 +4,7 @@
   "description": "yet another redux implementation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node node_modules/jasmine/bin/jasmine"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/bygrace1986/yari/issues"
   },
-  "homepage": "https://github.com/bygrace1986/yari#readme"
+  "homepage": "https://github.com/bygrace1986/yari#readme",
+  "dependencies": {
+    "rxjs": "^6.2.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine": "^3.1.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
 }
