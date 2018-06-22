@@ -1,0 +1,19 @@
+{
+  "name": "yari",
+  "version": "1.0.0",
+  "description": "yet another redux implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bygrace1986/yari.git"
+  },
+  "author": "Erik Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bygrace1986/yari/issues"
+  },
+  "homepage": "https://github.com/bygrace1986/yari#readme"
+}
